@@ -16,7 +16,7 @@ node {
     // -------------------------------------------------------------------------
 
     stage('checkout source') {
-		echo ${env.WORKSPACE}
+	echo ${env.WORKSPACE}
         checkout scm
     }
 
